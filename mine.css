@@ -1,0 +1,294 @@
+/*資管108 B036060008 楊博名的個人網頁*/
+
+html, body{
+  height: 100%;
+  width: 100%;/*?*/
+}
+
+/*#ALVB{
+  margin-top: -4%;
+  margin-left: -8%;
+  height: 4%;
+  width: 10%;
+
+}*/
+
+.nav ul{
+  display: inline-block;/*同一行*/
+}
+
+.nav li {
+  display: inline-block;/*同一行*/
+}
+
+.nav a {
+  color: #5a5a5a;/*字體顏色*/
+  font-size: 25px;/*字體大小*/
+  font-weight: bold;/*字體：厚*/
+  padding: 14px 20px;/*留白*/
+  text-transform: uppercase;/*大寫*/
+}
+
+.nav .pull-right{
+  margin-top: 1%;
+  display: block;
+}
+
+.nav img:hover{/*縮圖變化*/
+  transform:rotate(10deg) scale(1.2,1.2);/*旋轉10度*//*長寬放大1.2倍*/
+}
+
+.nav img{
+  height: 40px;
+  width: 40px;
+  -moz-transition: all 1s ;/*firefox轉場時間*/
+  -ms-transform: all 1s;/*IE*/
+  transition: all 1s;/*轉場時間*/
+}
+
+.jumbo{
+  background-repeat: no-repeat;/*背景不重複*/
+  background-size: cover;/*放大到邊界*/
+  height: 100%;
+}
+
+#show1{
+  background-image:url("girlWithEarring.jpg");
+  background-repeat: no-repeat;/*背景不重複*/
+  background-size: cover;/*放大到邊界*/
+  height: 100%;
+  width: 100%;  
+}
+
+#show2{
+  background-image:url("dot.jpg");
+  background-repeat: no-repeat;/*背景不重複*/
+  background-size: cover;/*放大到邊界*/  
+  height: 100%;
+  width: 100%;   
+}
+
+#show3{
+  background-image:url("sunset.jpg");
+  background-repeat: no-repeat;/*背景不重複*/
+  background-size: cover;/*放大到邊界*/  
+  height: 100%;
+  width: 100%;   
+}
+
+#jumbo2{
+  background-image:url("grande.jpg");
+}
+
+#jumbo3{
+  background-image:url("dusk.jpg");
+}
+
+.jumbo .container, .aboutUs .container{
+  position: relative;/*相對位置*/
+}
+
+#jumbo1 h1, #jumbo1 h2{
+  font-family: 'Shift', cursive;/*字體樣式*/
+  font-weight: bold;/*字體：厚*/
+}
+
+#jumbo2 h1, #jumbo3 h1{
+  font-family: 'Shift', monospace;/*字體樣式*/
+  font-weight: bold;/*字體：厚*/
+}
+
+#show1 h1{
+  color: #B5B5B5;/*字體顏色*/
+  font-size: 60px;/*字體大小*/
+  margin-left:-2%;/*左方邊界*/
+  margin-top: 20%;/*上方邊界*/
+}
+
+#show1 h2{
+  color: #525252;
+  font-size: 25px;
+  margin-left:28%;
+  margin-top: 3%;
+}
+
+#show2 h1{
+  color: #000000;/*字體顏色*/
+  font-size: 60px;/*字體大小*/
+  margin-left:-2%;/*左方邊界*/
+  margin-top: 20%;/*上方邊界*/
+}
+
+#show2 h2{
+  color: #222222;
+  font-size: 25px;
+  margin-left:28%;
+  margin-top: 3%;
+}
+
+#show3 h1{
+  color: #000000;/*字體顏色*/
+  font-size: 60px;/*字體大小*/
+  margin-left:-2%;/*左方邊界*/
+  margin-top: 20%;/*上方邊界*/
+}
+
+#show3 h2{
+  color: #222222;
+  font-size: 25px;
+  margin-left:28%;
+  margin-top: 3%;
+}
+
+#jumbo2 h1{
+  color: #D73132;
+  font-size: 50px;
+  margin-left: 29%;
+  padding-top: 2%;/*上方留白*/
+}
+
+#jumbo2 h3{
+  text-align: center;
+  color: #B5B5B5;
+  font-weight: bold;
+}
+
+#jumbo2 h5{
+  text-align: center;
+  color: #666666;
+}
+
+#jumbo3 h1{
+  color: #00A04E;
+  font-size: 70px;
+  margin-left: 40%;
+  margin-top: 20%;
+  opacity: 0;
+}
+
+#jumbo3 h3{
+  margin-left: 52%;
+  color: #525252;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#jumbo3 h5{
+  margin-left: 56%;
+  color: #666666;
+  font-size: 30px;
+}
+
+#note{
+  color: #FFFFFF;
+
+  font-family: 'Shift', sans-serif;/*字體樣式*/
+  font-size: 15px;
+  text-align: center;
+}
+
+.aboutUs, #auc{
+  background-repeat: no-repeat;/*背景不重複*/
+  background-size: cover;/*放大到邊界*/
+  background-image:url("poster3.jpg");
+  background-attachment: fixed;
+}
+
+.aboutUs img{
+  margin-right: 2%;
+  margin-top: 3%;
+  margin-bottom: 0.5%;
+  border-radius: 10px;
+  float: left;
+  height: 45%;
+  width: 35%;
+}
+
+.aboutUs h1{
+  font-family: 'Shift', sans-serif;/*字體樣式*/
+  font-weight: bold;/*字體：厚*/
+  text-align: center;
+  font-size: 60px;
+  margin-top: 4%;
+}
+
+.aboutUs p{
+  margin-top: 5%;
+  font-family: 'Shift', sans-serif;/*字體樣式*/
+  font-size: 30px;
+}
+
+#via{
+  margin-top: -5%;
+  margin-left: 10%;
+}
+
+.aboutUs h2{
+  font-family: 'Shift', sans-serif;/*字體樣式*/
+  font-weight: bold;/*字體：厚*/
+  text-align: center;
+  font-size: 40px;
+}
+
+
+#auction h1{
+  margin-top: 40%;
+  font-family: 'Shift', sans-serif;/*字體樣式*/
+  font-weight: bold;/*字體：厚*/
+  text-align: center;
+  font-size: 40px;
+}
+
+#auction h3{
+  font-family: 'Shift', sans-serif;/*字體樣式*/
+  font-weight: bold;/*字體：厚*/
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10%;  
+}
+
+#auction p{
+  font-family: 'Shift', sans-serif;/*字體樣式*/
+  font-size: 20px;
+}
+
+.button{
+  position:relative; 
+  left: 50%;
+  margin-top: 5%;
+}
+
+
+
+#auction img:hover{/*縮圖變化*/
+  transform-origin:left;
+  transform:scale(1.2,1.2);/*長寬放大1.2倍*/
+}
+
+#auction img {
+  border-radius: 10px;
+  margin-top: 20%;
+  height: 50%;
+  width: 60%;
+  -moz-transition: all 1s ;/*firefox轉場時間*/
+  -ms-transform: all 1s;/*IE*/
+  transition: all 1s;/*轉場時間*/
+}
+
+#tips{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.slideshow { 
+  height: 232px; 
+  width: 232px; 
+  margin: auto 
+}
+
+.slideshow img { 
+  padding: 15px; 
+  border: 1px solid #ccc; 
+  background-color: #eee; 
+}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html><!-- 一定放第一行 -->
+
+<!-- 資管108 B036060008 楊博名的線上藝廊 -->
+<!-- 首頁 -->
+
+<html lang="en">  
+  <head>
+    <title>ALVB</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- 嚮應式 CSS -->
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet"><!-- 嚮應式 CSS --> 
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  
+    
+    <script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script><!-- include Cycle plugin -->
+    <script src="assets/countdown/jquery.countdown.js"></script><!-- 連到jquery.countdown.js -->
+    <script src="script.js"></script><!-- 連到script.js -->
+
+
+    <link rel="stylesheet" href="assets/countdown/jquery.countdown.css" /><!-- 連到jquery.countdown.css-->    
+    <link rel="stylesheet" href="mine.css"><!-- 連到CSS --><!-- 放在head最後一行以免出錯 -->
+
+
+  </head>
+
+  <body>
+      <div class="nav"><!-- 導覽列 -->
+        <div class="container">
+          <!-- <img id="ALVB" src="ALVB.png"> -->
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="index.html">Home</a></li><!-- 首頁 -->
+            <li><a href="aboutUs.html">About Us</a></li><!-- 關於我們 -->
+            <li><a href="auction.html">Auction</a></li><!-- 拍賣 -->
+          </ul>  
+
+          <ul class="pull-right"><!-- 拉到右邊 -->
+            <li><a target="_blank" title="find us on Facebook" href="https://www.facebook.com/profile.php?id=100000271802283"><img alt="follow us on facebook" src="facebook.png"></a></li><!-- FB連結 -->
+            <li><a target="_blank" title="find us on Instagram" href="https://www.instagram.com/andrewhowcool/"><img alt="follow us on Instagram" src="ig.jpg"></a></li><!-- IG連結 -->
+            <li><a title="Email to Us" href="mailto:andrewcyoung1@gmail.com"><img alt="send an email to us" src="gmail.png"/></a></li><!-- 寄信給我 -->
+          </ul>  
+        </div>
+      </div>
+
+      <div class="jumbo" id="jumbo1"><!-- 超大屏幕 -->
+        <div id="show1">
+          <div class="container">
+            <h1>Ars Longa, Vita Brevis</h1>
+            <h2>Art is Long, Life is Short</h2>
+          </div>
+        </div>
+        <div id="show2">
+          <div class="container">
+            <h1>Ars Longa, Vita Brevis</h1>
+            <h2>Art is Long, Life is Short</h2>
+          </div>
+        </div>
+        <div id="show3">
+          <div class="container">
+            <h1>Ars Longa, Vita Brevis</h1>
+            <h2>Art is Long, Life is Short</h2>
+          </div>
+        </div>        
+      </div>
+
+      <div class="jumbo" id="jumbo2"><!-- 即將結標 -->
+        <div class="container">
+          <h1>Auction Expiring</h1>
+          <h3>Grande Odalisque</h3>
+          <h5>Jean Auguste Dominique Ingres</h5>
+          <div id="countdown"></div>
+          <p id="note"></p>
+        </div>
+      </div>      
+
+      <div class="jumbo" id="jumbo3"><!-- 即將開賣 -->
+        <div class="container">
+          <h1 id="coming">Coming Auction</h1>
+          <h3>Sunset in Venice</h3>
+          <h5>Claude Monet</h5>            
+        </div>
+      </div>       
+  </body>
+</html>
